@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neish - Inicio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1>Neish</h1>
+            <input type="text" placeholder="Buscar...">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="acerca-de.html">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <div class="slider">
+            <div class="slides">
+                <div class="slide"><img src="https://depor.com/resizer/pNpv9bVWv-iVWnz9Vydrg99BXRQ=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/V6TIP2A2INDHLI7J46DRJGFHCU.jpg" alt="bellingham"></div>
+                <div class="slide"><img src="https://i.pinimg.com/474x/05/13/9f/05139fe642a4b3063988e7f18f59a874.jpg" alt="pinimg"></div>
+                <div class="slide"><img src="https://cdn.conmebol.com/wp-content/uploads/2014/04/copa-del-mundo-750x485.jpg" alt="copa-del-mundo-750x485"></div>
+            </div>
+            <div class="slider-controls">
+                <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+                <button class="next" onclick="plusSlides(1)">&#10095;</button>
+            </div>
+        </div>
+        <div class="categories">
+            <div class="category" onclick="goToSection('mujeres')">Mujeres</div>
+            <div class="category" onclick="goToSection('hombres')">Hombres</div>
+            <div class="category" onclick="goToSection('niños')">Niños</div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Neish. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+            <div class="footer-contact">
+                <span>📞 +123 456 789</span>
+                <span>📧 info@neish.com</span>
+                <span>📍 Calle Falsa 123, Ciudad, País</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
